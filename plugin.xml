@@ -18,10 +18,10 @@
 
     <platform name="android">
         <!-- for gradle-->
-        <!--framework src="com.google.android.gms:play-services-ads:+" /-->
+        <framework src="com.google.android.gms:play-services-ads:+" />
         
         <!-- for ant -->
-        <dependency id="cordova-plugin-googleplayservices"/>
+        <!--dependency id="cordova-plugin-googleplayservices"/-->
      </platform>
      
     <platform name="amazon-fireos">

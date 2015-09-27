@@ -1,6 +1,6 @@
 {
   "name": "cordova-admobsdk",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "Add Google Mobile Ads SDK to Cordova porject, as dependency for other plugins",
   "cordova": {
     "id": "cordova-admobsdk",
