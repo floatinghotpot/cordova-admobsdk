@@ -1,0 +1,34 @@
+{
+  "name": "cordova-admobsdk",
+  "version": "1.0.0-beta",
+  "description": "Add Google Mobile Ads SDK to Cordova porject, as dependency for other plugins",
+  "cordova": {
+    "id": "cordova-admobsdk",
+    "platforms": [
+      "android",
+      "ios",
+      "amazon-fireos",
+      "wp8",
+      "windows"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/floatinghotpot/cordova-admobsdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/cordova-admobsdk/issues"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "ad",
+    "admob",
+    "google",
+    "rjfun"
+  ],
+  "author": {
+    "name": "Liming Xie"
+  },
+  "license": "MIT"
+}

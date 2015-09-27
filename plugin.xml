@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-admobsdk"
+        version="1.0.0">
+      
+    <name>Google Mobile Ads SDK for Cordova</name>
+    <description>Add Google Mobile Ads SDK to Cordova porject, as dependency for other plugins</description>
+    <author>Google</author>
+    <keywords>rjfun,admob,google,ad</keywords>
+    <repo>https://github.com/floatinghotpot/cordova-admobsdk.git</repo>
+    <issue>https://github.com/floatinghotpot/cordova-admobsdk/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0" />
+    </engines>
+
+    <platform name="android">
+        <!-- for gradle-->
+        <!--framework src="com.google.android.gms:play-services-ads:+" /-->
+        
+        <!-- for ant -->
+        <dependency id="cordova-plugin-googleplayservices"/>
+     </platform>
+     
+    <platform name="amazon-fireos">
+        <!-- using ant, framework tag for android sdk cannot be supported, so we use external dependency -->
+        <dependency id="cordova-plugin-googleplayservices"/>
+     </platform>
+
+     <platform name="ios">
+         <framework src="GoogleMobileAds.framework" custom="true" />
+    </platform>
+
+     <!-- Windows Phone 8 -->
+     <platform name="wp8">
+          <framework src="GoogleAds.dll" custom="true" />
+     </platform>
+
+     <!-- Windows Phone 8.1+ -->
+     <platform name="windows">
+        <framework src="GoogleAds.dll" custom="true" />
+    </platform>
+
+</plugin>
