@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-admobsdk"
-        version="3.1.0">
+        version="3.1.1">
       
     <name>Google Mobile Ads SDK for Cordova</name>
     <description>Add Google Mobile Ads SDK to Cordova porject, as dependency for other plugins</description>
@@ -34,18 +34,20 @@
         <framework src="AdSupport.framework" />
         <framework src="AudioToolbox.framework" />
         <framework src="AVFoundation.framework" />
+        <framework src="CoreBluetooth.framework" />
         <framework src="CoreGraphics.framework" />
-        <framework src="CoreMedia.framework" />
+        <framework src="CoreLocation.framework" />
         <framework src="CoreTelephony.framework" />
         <framework src="EventKit.framework" />
         <framework src="EventKitUI.framework" />
         <framework src="Foundation.framework" />
         <framework src="MediaPlayer.framework" />
         <framework src="MessageUI.framework" />
+        <framework src="QuartzCore.framework" />
+        <framework src="SafariServices.framework" />
         <framework src="StoreKit.framework" />
         <framework src="SystemConfiguration.framework" />
         <framework src="UIKit.framework" />
-        <framework src="QuartzCore.framework" />
     </platform>
 
      <!-- Windows Phone 8 -->
