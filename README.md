@@ -1,6 +1,6 @@
 ## Google Mobile Ads SDK for Cordova
 
-This cordova plugin adds Google Mobile Ads SDK to Cordova projects, mainly as dependency of other plugins.
+This cordova plugin adds Google Mobile Ads SDK to Cordova projects, mainly as dependency for other plugins.
 
 ## Platform Versions
 
